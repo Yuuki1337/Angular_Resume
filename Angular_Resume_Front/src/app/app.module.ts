@@ -9,12 +9,14 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
 import { HomepageComponent } from './homepage/homepage.component';
 import { SearchBoxComponent } from './search-box/search-box.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
